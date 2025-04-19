@@ -1,0 +1,11 @@
+.git
+.github
+img
+LICENSE
+README.md
+.cross_compile.sh
+Dockerfile
+compose.yaml
+deeplx.service
+me.missuo.deeplx.plist
+install.sh 
