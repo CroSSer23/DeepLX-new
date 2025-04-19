@@ -15,5 +15,22 @@
   ],
   "env": {
     "IP": "0.0.0.0"
-  }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/entrypoint.go"
+    }
+  ]
 } 

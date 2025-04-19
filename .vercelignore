@@ -1,3 +1,8 @@
+# Ignore everything (folders and files) on root only
+/*
+!api
+!go.*
+!vercel.json
 .git
 .github
 img
